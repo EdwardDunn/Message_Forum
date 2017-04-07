@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Name: login.html
+Description: Displays html forum for user to enter log in details, connects to login.php
+Author: Edward Dunn
+Date: 07/04/14
+Version: 1.0
+-->
+<html>
+<head>
+
+<title>Login</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="styles/login.css" /> 
+
+<!--google font link-->
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="pageContainer">
+
+	<div id="header">
+		<h1>Login</h1>
+	</div>
+
+	<div id="inputDetails">
+		<form action="login.php" method="post">
+
+		<label for="email">Email Address: <label>
+		<input type="text" name="email" id="email"><br>
+
+		<label for="password">Password: </label>
+		<input type="password" name="password" id="password"><br>
+
+		<input type="submit" type="submit" value="Submit">
+
+		</form>
+	</div>
+	
+	<!-- register button takes users to registration page -->
+	<div id="registerButton">
+		<a href ="register.html">
+		<button class="button registerButton">Register</button>
+		</a>
+	</div>
+
+</div>
+
+
+</body>
+
+
+</html>

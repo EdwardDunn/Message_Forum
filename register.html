@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Name: register.html
+Description: HTML forum for allowing user to enter their details for be held on database
+Author: Edward Dunn
+Date: 07/04/14
+Version: 1.0
+-->
+<html>
+<head>
+<title>Register</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="styles/register.css" /> 
+
+<!--google font link-->
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="pageContainer">
+
+	<div id="header">
+		<h1>Registration Form</h1>
+	</div>
+
+	<div id="inputDetails">
+	<form action="register.php" method="post">
+
+		<label for="fname">First Name: </label>
+		<input type="text" name="fname" id="fname"><br>
+
+		<label for="lname">Last Name: </label>
+		<input type="text" name="lname" id="lname"><br>
+		
+		<label for="username">Username: </label>
+		<input type="text" name="username" id="username"><br>
+
+		<label for="email">Email Address: <label>
+		<input type="text" name="email" id="email"><br>
+
+		<label for="password">Password: </label>
+		<input type="password" name="password" id="password"><br>
+
+		<input type="submit" type="submit" value="Submit">
+
+		</form>
+	</div>
+	
+	<!-- takes user back to login.html -->
+	<div id="backLink">
+		<a href="login.html">
+		<button class="button backButton">Back</button>
+		</a>
+	</div>
+
+</div>
+
+
+</body>
+
+
+</html>
