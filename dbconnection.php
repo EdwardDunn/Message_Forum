@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 Name: dbconnection.php
-Description: Connection to database to be used for database connections
+Description: Database connect file, to be included in any file requiring connection
 Author: Edward Dunn
 Date: 07/04/14
 Version: 1.0
