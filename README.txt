@@ -3,7 +3,7 @@ README
 Date: 07/04/17
 
 
-Message Forum
+Message Forum Repo
 
 The forum allows users to register their details and post messages to a main forum page.
 
